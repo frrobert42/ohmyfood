@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap');
+
+* {
+    font-family: Roboto, sans-serif;
+    --Black: #101010;
+}
+
+h1, h2 {
+    font-family: Shrikhand, serif;
+}
+
+h3 {
+    font-family: Roboto, serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: center;
+}
+
+header a {
+    margin: 0 0 0 17px;
+    cursor: pointer;
+}
+
+header h1 {
+    margin: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+main img {
+    width: 100%;
+    max-height: 251px;
+    object-fit: cover;
+}
+
+.main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin: -20px 0 0 0;
+    padding: 0;
+    background: #F6F6F6;
+    border-radius: 25px 25px 0 0;
+}
+
+.main-container h2 {
+    padding: 0 17px;
+    width: calc(100% - 34px);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-container h2 span {
+    color: var(--Black, #101010);
+    font-family: Shrikhand, serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.heart-container:hover {
+    cursor: pointer;
+}
+
+.heart-container i+i {
+    display: none;
+}
+
+.main-container .starter, .main-container .main-course, .main-container .dessert {
+    padding: 0 17px;
+    width: calc(100% - 34px);
+}
+
+.card-menu-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.card-menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    margin: 0 0 18px 0;
+    padding: 0;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+
+.title-container {
+    overflow: hidden;
+    color: #000;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: Roboto, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0 17px;
+}
+
+.price-check-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding: 17px;
+    font-weight: 700;
+}
+
+.price-check-container .check {
+    display: none;
+}
+
+.order-button {
+    border-radius: 25px;
+    background:  linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%);
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+    border-color: transparent;
+    margin: auto;
+}
