@@ -153,7 +153,7 @@ main {
 .how-to-use a p {
     z-index: 2;
     width: 1.5em;
-    margin: 0 -16px 0 16px;
+    margin: 0 -10px 0 0;
     padding: 2px 0;
     border-radius: 50%;
     color: white;
@@ -161,12 +161,12 @@ main {
 }
 
 .how-to-use a button {
-    width: 90%;
+    width: 100%;
     height: 70px;
     margin: 5px auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: start;
     align-items: center;
     font-size: 16px;
     font-weight: 500;
@@ -179,6 +179,7 @@ main {
 
 .how-to-use a button i {
     color: #7E7E7E;
+    margin: 0 30px;
 }
 
 .how-to-use a:hover button i {
