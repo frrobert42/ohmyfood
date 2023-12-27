@@ -3,6 +3,7 @@
 * {
     font-family: Roboto, sans-serif;
     --Black: #101010;
+    --Green: #99E2D0;
 }
 
 h1, h2 {
@@ -14,6 +15,32 @@ h3 {
     font-size: 16px;
     font-weight: 300;
     text-transform: uppercase;
+}
+
+h4 {
+    overflow: hidden;
+    color: #000;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+hr {
+    width: 40px;
+    height: 3px;
+    background-color: var(--Green, #99E2D0);
+    margin: 0 0 12px 0;
+    border: none;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: normal;
+    text-overflow: ellipsis;
 }
 
 body {
@@ -140,9 +167,64 @@ main img {
 }
 
 .order-button {
+    width: 186px;
+    height: 50px;
+    margin: 22px auto 40px auto;
+    flex-shrink: 0;
+
     border-radius: 25px;
     background:  linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%);
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
-    border-color: transparent;
-    margin: auto;
+    border: none;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+
+footer {
+    background: #353535;
+    color: white;
+    padding: 22px 25px 15px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+footer h3 {
+    color: #FFF;
+    font-family: Shrikhand, sans-serif !important;
+    font-size: 18px !important;
+    font-style: normal;
+    font-weight: 700 !important;
+    line-height: normal;
+    text-transform: none !important;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+footer div a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 7px 0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+footer div a i {
+    margin: 0 11px 0 0;
+}
+
+.fa-utensils {
+    padding: 0 0 0 4px;
 }
