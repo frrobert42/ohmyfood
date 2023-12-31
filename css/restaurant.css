@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap');
 
 * {
-    font-family: Roboto, sans-serif;
+    font-family: Roboto, serif;
     --Black: #101010;
     --Green: #99E2D0;
 }
@@ -197,12 +197,12 @@ footer {
 
 footer h3 {
     color: #FFF;
-    font-family: Shrikhand, sans-serif !important;
-    font-size: 18px !important;
+    font-family: Shrikhand, sans-serif;
+    font-size: 18px;
     font-style: normal;
-    font-weight: 700 !important;
+    font-weight: 500;
     line-height: normal;
-    text-transform: none !important;
+    text-transform: none;
 }
 
 footer div {
