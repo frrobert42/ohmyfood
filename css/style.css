@@ -216,17 +216,17 @@ main {
 
 .card-img img {
     width: 100%;
-    height: 251px;
+    height: 200px;
     object-fit: cover;
     border-radius: 15px 15px 0 0;
 }
 
 .new {
     position: relative;
-    top: -250px;
+    top: -200px;
     width: 80px;
     height: 29px;
-    margin: 13px 12px 0 auto;
+    margin: 13px 12px -50px auto;
     padding: 7px 0 0 0;
     flex-shrink: 0;
     border-radius: 2px;
@@ -288,6 +288,8 @@ footer a {
     }
 
     .how-to-use {
+        margin: auto;
+        max-width: 1080px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -300,8 +302,8 @@ footer a {
     }
 
     .how-to-use div {
-        width: 325px;
-        max-width: 33%;
+        width: 30%;
+        max-width: 325px;
     }
 
     .compose-menu {
@@ -309,22 +311,42 @@ footer a {
     }
 
     .restaurant {
+        padding: 25px 15px;
+        background: #F6F6F6;
+    }
+
+    .restaurant-container {
+        margin: auto;
+        max-width: 1080px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
-        padding: 25px 15px;
-        background: #F6F6F6;
     }
 
-    .restaurant a {
+    .restaurant-container a {
         width: 45%;
         max-width: 490px;
         min-width: 34%;
     }
 
-    .restaurant h2 {
+    .restaurant-container h2 {
         width: 100%;
+    }
+
+    footer {
+        flex-direction: row-reverse;
+        justify-content: end;
+        align-items: center;
+    }
+
+    footer a {
+        margin: auto 10px;
+    }
+
+    .footer-logo {
+        height: 27px;
+        margin: auto 50px;
     }
 }
