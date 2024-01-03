@@ -1,6 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+/* =====================================================================================================================
+      Fonts
+   ================================================================================================================== */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap');
+
+/* =====================================================================================================================
+      General
+   ================================================================================================================== */
 * {
     font-family: 'Roboto', sans-serif;
     --primary-color: #9356DC ;
@@ -24,6 +30,10 @@ a {
     font-family: 'Shrikhand', serif;
 }
 
+/* =====================================================================================================================
+      Boutons
+   ================================================================================================================== */
+
 .btn {
     height: 50px;
     padding: 12px 15px;
@@ -46,7 +56,9 @@ a {
     box-shadow: 0 4px 15px 0 #00000059;
 }
 
-/* header */
+/* =====================================================================================================================
+      Header
+   ================================================================================================================== */
 header {
     display: flex;
     flex-direction: column;
@@ -98,7 +110,9 @@ header {
     outline: none;
 }
 
-/* main */
+/* =====================================================================================================================
+      Main
+   ================================================================================================================== */
 main {
     display: flex;
     flex-direction: column;
@@ -133,7 +147,10 @@ main {
     margin: 27px auto;
 }
 
-/* How to use */
+/* =====================================================================================================================
+      How to use
+   ================================================================================================================== */
+
 .how-to-use {
     padding: 20px 20px 48px 20px;
 }
@@ -194,7 +211,9 @@ main {
     margin: 12px auto;
 }
 
-/* Restaurant */
+/* =====================================================================================================================
+      restaurant
+   ================================================================================================================== */
 .restaurant {
     padding: 25px 20px;
     background: #F6F6F6;
@@ -263,51 +282,9 @@ main {
     margin: auto 25px auto 0;
 }
 
-/* Footer */
-footer {
-    background: #353535;
-    color: white;
-    padding: 22px 25px 15px 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-}
-
-footer h3 {
-    color: #FFF;
-    font-family: Shrikhand, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-transform: none;
-}
-
-footer div {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-}
-
-footer div a {
-    color: #FFFFFF;
-    text-decoration: none;
-    margin: 7px 0;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-
-footer div a i {
-    margin: 0 11px 0 0;
-}
-
-.fa-utensils {
-    padding: 0 0 0 4px;
-}
-
-/* Media Queries for desktop */
+/* =====================================================================================================================
+      Media Queries for desktop
+   ================================================================================================================== */
 @media (min-width: 1024px) {
     .explore h1 {
         font-weight: 700;
