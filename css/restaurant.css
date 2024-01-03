@@ -6,6 +6,10 @@
 /* =====================================================================================================================
       General
    ================================================================================================================== */
+@import "animation.css";
+@import "buttons.css";
+@import "footer.css";
+
 * {
     font-family: Roboto, serif;
     --Black: #101010;
@@ -178,24 +182,9 @@ main img {
     display: none;
 }
 
-.order-button {
+.btn {
     width: 186px;
-    height: 50px;
     margin: 22px auto 40px auto;
-    flex-shrink: 0;
-
-    border-radius: 25px;
-    background:  linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%);
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
-    border: none;
-
-    color: #FFF;
-    text-align: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    cursor: pointer;
 }
 
 /* =====================================================================================================================

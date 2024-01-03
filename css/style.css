@@ -7,6 +7,10 @@
 /* =====================================================================================================================
       General
    ================================================================================================================== */
+@import "animation.css";
+@import "buttons.css";
+@import "footer.css";
+
 * {
     font-family: 'Roboto', sans-serif;
     --primary-color: #9356DC ;
@@ -28,32 +32,6 @@ a {
 
 .logo, .title {
     font-family: 'Shrikhand', serif;
-}
-
-/* =====================================================================================================================
-      Boutons
-   ================================================================================================================== */
-
-.btn {
-    height: 50px;
-    padding: 12px 15px;
-    border-radius: 35px;
-    color: white;
-    background: linear-gradient(193.33deg, var(--primary-color) -11.44%, var(--secondary-color) 123.93%);
-    box-shadow: 0 4px 10px 0 #00000040;
-    border: none;
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 19px;
-    text-align: center;
-}
-
-.btn:hover {
-    animation-timing-function: ease-out;
-    animation-duration: 300ms;
-    background: linear-gradient(200.64deg, var(--primary-color) -5.2%, var(--secondary-color) 110.74%),
-    linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));
-    box-shadow: 0 4px 15px 0 #00000059;
 }
 
 /* =====================================================================================================================
@@ -319,7 +297,7 @@ main {
 
     .restaurant {
         width: 100%;
-        padding: 25px 20px;
+        padding: 25px 0;
         background: #F6F6F6;
     }
 
@@ -331,13 +309,12 @@ main {
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        padding: 20px 0 48px 0;
+        padding: 20px 0 48px 20px;
     }
 
-    .restaurant-container a {
-        width: 50%;
+    .restaurant-container .card {
+        width: calc(50% - 20px);
         max-width: 490px;
-        min-width: 34%;
     }
 
     .restaurant-container h2 {
