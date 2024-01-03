@@ -366,23 +366,4 @@ footer div a i {
     .restaurant-container h2 {
         width: 100%;
     }
-
-    footer {
-        flex-direction: row-reverse;
-        justify-content: end;
-    }
-
-    footer div {
-        flex-direction: row;
-        justify-content: end;
-        align-items: center;
-    }
-
-    footer div a {
-        margin: 0 11px;
-    }
-
-    footer h3 {
-        margin: 30px 45px 30px 55px;
-    }
 }
