@@ -232,7 +232,7 @@ footer div a i {
 /* Media Queries for desktop */
 @media (min-width: 1024px) {
     .main-container {
-        margin: -20px auto 20px auto;
+        margin: -20px auto 0 auto;
         max-width: 1055px;
     }
 
@@ -247,5 +247,24 @@ footer div a i {
     .starter, .main-course, .dessert {
         margin: auto;
         max-width: 634px;
+    }
+
+    footer {
+        flex-direction: row-reverse;
+        justify-content: end;
+    }
+
+    footer div {
+        flex-direction: row;
+        justify-content: end;
+        align-items: center;
+    }
+
+    footer div a {
+        margin: 0 11px;
+    }
+
+    footer h3 {
+        margin: 30px 45px 30px 55px;
     }
 }
