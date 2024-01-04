@@ -41,12 +41,13 @@
 .loader-container h1 {
     font-family: 'Shrikhand', serif;
     font-size: 4rem;
-    color: #FFFFFF;
 }
 
-/* Loader */
+/* =====================================================================================================================
+      Loader
+   ================================================================================================================== */
 .loader {
-    background: radial-gradient(circle closest-side, #000 90%, #0000) 0 / calc(100% / 3) 100% space;
+    background: radial-gradient(circle closest-side, #000 90%, #0000) 0 / calc(100% /3) 100% space;
     width: 100px;
     aspect-ratio: 4;
     clip-path: inset(0 100% 0 0);
@@ -59,12 +60,13 @@
     }
 }
 
-/* 5 sec */
+/* 1.5 sec */
 .loader-container {
-    animation: cssAnimation 0s ease-in 3s forwards;
+    animation: cssAnimation 0s ease-in 1.5s forwards;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
+
 @keyframes cssAnimation {
     to {
         width:0;
@@ -72,6 +74,7 @@
         overflow:hidden;
     }
 }
+
 @-webkit-keyframes cssAnimation {
     to {
         width:0;
